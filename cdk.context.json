@@ -1,0 +1,10 @@
+{
+  "targetAccountId": "123456789012",
+  "targetOuId": "ou-xxxx-xxxxxxxx",
+  "stackSetOuIds": [],
+  "monthlyBudgetAmount": 1000,
+  "alertThresholdPercent": 80,
+  "notificationEmail": "admin@example.com",
+  "protectionTagKey": "CostGovernance:Protected",
+  "crossAccountRoleName": "CostGovernanceExecutionRole"
+}

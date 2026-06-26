@@ -1,0 +1,19 @@
+{
+  "app": "npx tsx bin/app.ts",
+  "watch": {
+    "include": ["**"],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "tsconfig.json",
+      "package*.json",
+      "node_modules"
+    ]
+  },
+  "context": {
+    "@aws-cdk/core:bootstrapQualifier": "hnb659fds",
+    "@aws-cdk/core:newStyleStackSynthesis": true
+  }
+}
